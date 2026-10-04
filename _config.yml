@@ -26,10 +26,10 @@ author:
   avatar           : "guy-azran.jpg"
   name             : "Guy Azran"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate at the Technion - Israel Institute of Technology specializing in Robotics and Artificial Intelligence"
-  location         : "Israel"
+  bio              : "PhD candidate in AI and robotics."
+  location         :
   employer         : "Technion"
-  uri              : https://guyazran.github.io
+  uri              :
   email            : "guy.azran@campus.technion.ac.il"
 
   # Academic websites

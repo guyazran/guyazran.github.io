@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD candidate at the Taub Faculty of Computer Science at the Technion – Israel Institute of Technology, supervised by Dr. Sarah Keren. My research focuses on task-driven neuro-symbolic abstractions that support long-horizon decision-making.
+I'm a PhD candidate at the Technion – Israel Institute of Technology, supervised by [Dr. Sarah Keren](https://sarahk.cs.technion.ac.il/) in [CLAIR Lab](https://clair.cs.technion.ac.il/). My research focuses on task-driven neuro-symbolic abstractions that support long-horizon decision-making.
 
 I currently study state estimation for robust planning and execution in robotics. Learned perception can provide useful information about a robot's surroundings, but that information is often incomplete or wrong. I develop methods for constructing and maintaining compact symbolic representations of the world and the robot's uncertainty about it. These representations allow planners to account for multiple possible states rather than rely on a single, potentially incorrect estimate. My earlier research explored how symbolic task abstractions can support transfer in reinforcement learning.
 
