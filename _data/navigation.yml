@@ -2,7 +2,7 @@
 # The template pages remain in the repository but are not linked here.
 main:
   - title: "Publications"
-    url: https://scholar.google.com/citations?user=bxhQv1kAAAAJ
+    url: /publications/
 
   - title: "CV"
     url: /files/Guy-Azran-CV.pdf

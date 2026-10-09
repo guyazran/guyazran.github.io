@@ -1,0 +1,11 @@
+<div class="list__item">
+  <article class="archive__item">
+    <h3 class="archive__item-title">{{ post.title | escape }}</h3>
+    <p>
+      {% for author in post.authors %}{% if author == site.author.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br />
+      <i>{{ post.venue | escape }}</i>{% if post.publication_year %}, {{ post.publication_year }}{% endif %}{% if post.status %} · {{ post.status | escape }}{% endif %}{% if post.presentation %} · {{ post.presentation | escape }}{% endif %}.<br />
+      {% if post.note %}{{ post.note | escape }}<br />{% endif %}
+      {% if post.paperurl %}<a href="{{ post.paperurl | escape }}" aria-label="Paper: {{ post.title | escape }}">Paper</a>{% endif %}{% if post.codeurl %}{% if post.paperurl %} · {% endif %}<a href="{{ post.codeurl | escape }}" aria-label="Code: {{ post.title | escape }}">Code</a>{% endif %}{% if post.workshopurl %}{% if post.paperurl or post.codeurl %} · {% endif %}<a href="{{ post.workshopurl | escape }}" aria-label="Workshop paper: {{ post.title | escape }}">Workshop paper</a>{% endif %}
+    </p>
+  </article>
+</div>
