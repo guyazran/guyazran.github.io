@@ -13,4 +13,4 @@ I currently study state estimation for robust planning and execution in robotics
 
 My long-term goal is to enable home robots to carry out complex tasks with behavior that people can understand and verify. I want to make it possible to examine the basis for a robot’s decisions and assess whether its actions are appropriate, rather than rely solely on textual explanations that can be ambiguous or erroneous. I see this as essential to building justified trust in robots that operate in our homes.
 
-Alongside my research, I teach AI and robotics, supervise undergraduate research projects, and develop research software and educational materials.
+Alongside my research, I teach AI and robotics, supervise undergraduate research projects, mentor master’s students, and develop research software and educational materials.
